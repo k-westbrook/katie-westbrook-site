@@ -1,9 +1,18 @@
 .App {
   text-align: center;
   font-family: 'Aleo', serif;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
+a{
+  text-decoration: none;
+  color:black;
 
+}
+a:hover{
+  opacity: .5;
+}
 
 .App-header {
   background-color: #282c34;
@@ -15,6 +24,27 @@
   justify-content: center;
   font-size: 3rem;;
   color: white;
+
+}
+
+.section-header {
+  height:100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;;
+  color: white;
+
+}
+.section-title{
+  margin-top: 3rem;
+  padding: 0rem 2rem 0rem 2rem;
+  width: 100%;
+  border-color: white;
+  border-style: double;
 
 }
 
@@ -31,11 +61,6 @@
   }
 }
 
-.profile-pic{
-  width:30%;
-  height: 30%;
-
-}
 
 .nav-bar{
   height: 5rem;
@@ -53,22 +78,27 @@
   border-style: double;
   border-color:white;
   padding: 5rem;
-
+  animation-name: opening;
+  animation-duration: 4s;
+  border-radius: .5rem;
 }
+
 
 .double-box-border{
   border-style: double;
   border-color: white;
  padding: 1rem 3rem 1rem 3rem;
-
+ border-radius: .5rem;
 
 }
 
 
 .nav-link-box{
-  border-style: solid;
+  border-style: double;
   border-radius: .5rem;
-  border-color: black;
+  border-color: white;
+  color:white;
+  background-color: #282c34;
   margin-left: 3rem;
   padding: .5rem;
   width:15rem;
@@ -81,28 +111,65 @@
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-border-style: dotted;
-border-color: wheat;
-padding:2em;
+border-style: double;
+border-radius: .5rem;
+border-color: white;
+
+padding:2rem;
+margin: 2rem;
 }
 
 .project-card{
   height: 18rem;
   width: 15rem;
-  background-color: wheat;
+  background-color: white;
   margin-right: 3rem;
   margin-left: 3rem;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  animation-name: float;
+  animation-duration: 4s;
 }
 
+.project-card:hover{
+  opacity: .5;
+}
 .project-info{
   color: black;
-  font-size: 30%;
+
   padding:.1rem;
 
 }
+.project-description{
+  text-align:start;
+  margin: .5rem;
+  font-size: 40%;
+}
 .project-img{
   width:10rem;
-  height:5rem;
+  height:7rem;
+  border-style: solid;
+  border-radius: .5rem;
+
+}
+
+.project-name{
+  font-size: 70%;
+
 }
 
 
+@keyframes opening{
+  from {padding :10rem ;}
+  to {padding :5rem ;}
+}
+
+@keyframes float{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

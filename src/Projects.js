@@ -34,8 +34,10 @@ class Projects extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h2>Projects</h2>
+        <div className="section-header">
+          <div className='section-title'>
+            <h2 >Projects</h2>
+          </div>
           <div className='projects-box'>
             {projects.map(project => {
               return <ProjectItem project={project} />
@@ -43,7 +45,7 @@ class Projects extends Component {
             }
 
           </div>
-        </header>
+        </div>
 
       </div>
     );

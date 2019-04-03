@@ -11,9 +11,10 @@ export const ProjectItem = (props) => {
       <a href={link}>
         <div className='project-card'>
           <div className='project-info'>
-            <h3>{name}</h3>
+            <h3 className='project-name'>{name}</h3>
             <img src={imageURL} alt='project' className='project-img' />
-            <p>{description}</p>
+
+            <p className='project-description'>{description}</p>
 
 
           </div>

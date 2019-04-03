@@ -7,7 +7,7 @@ class AboutMe extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2 className='title-header'>About Katie</h2>
+          <h2 >About Katie</h2>
 
         </header>
 

@@ -7,7 +7,11 @@ class TitlePage extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2 className='title-header'>Katie Westbrook</h2>
+          <div className='double-box-border'>
+
+
+            <h2 className='title-header'>Katie Westbrook</h2>
+          </div>
 
         </header>
 

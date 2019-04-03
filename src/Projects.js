@@ -35,7 +35,7 @@ class Projects extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h2 className='title-header'>Projects</h2>
+          <h2>Projects</h2>
           <div className='projects-box'>
             {projects.map(project => {
               return <ProjectItem project={project} />

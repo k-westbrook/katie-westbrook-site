@@ -32,9 +32,7 @@
 .profile-pic{
   width:30%;
   height: 30%;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-direction: alternate;
+
 }
 
 .nav-bar{
@@ -50,13 +48,6 @@
 }
 
 
-@keyframes example {
-  from {width:30%; height:30%;}
-  to {width:50%; height:50%}
-
-}
-
-
 .nav-link-box{
   border-style: solid;
   border-radius: .5rem;
@@ -65,6 +56,34 @@
   padding: .5rem;
   position:sticky;
   top:0;
+}
+
+.projects-box{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border-style: dotted;
+border-color: wheat;
+padding:2em;
+}
+
+.project-card{
+  height: 15rem;
+  width: 15rem;
+  background-color: wheat;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.project-info{
+  color: black;
+  font-size: 50%;
+  padding:.1rem;
+
+}
+.project-img{
+  width:10rem;
+  height:5rem;
 }
 
 

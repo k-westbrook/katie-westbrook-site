@@ -246,3 +246,23 @@ padding:.5rem;
   color:palegreen;
 }
 
+.images-box{
+
+  margin:1rem;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.gallery-pic{
+  height: 20rem;
+  width: 20rem  ;
+  margin: .5rem;
+  border-radius: .5rem;
+  box-shadow: 5px 5px 2px black ;
+}
+
+.gallery-pic:hover{
+  opacity: .5;
+}
+

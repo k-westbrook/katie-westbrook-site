@@ -33,6 +33,11 @@ class AboutMe extends Component {
 
                 <br /> Please <a href='mailto:kcheriewestbrook@gmail.com' className='inline-link'> click here to email me</a> if you have any questions and suggestions.
             </p>
+              <p className='paragraph'>
+                <b className='size-emphasis'>Contact me</b>
+                <br />
+                <br /> Please <a href='mailto:kcheriewestbrook@gmail.com' className='inline-link'> click here to email me</a> if you have any questions and suggestions.
+            </p>
             </div>
             <div>
               <img className='about-me-picture' src='https://res.cloudinary.com/dmp2crnzz/image/upload/v1554309949/personal-site/profile_pic.jpg' alt='myself' />

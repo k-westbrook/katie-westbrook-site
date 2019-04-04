@@ -11,7 +11,7 @@ class TitlePage extends Component {
           <div className='double-box-border'>
 
 
-            <h2 className='title-header'>Katie Westbrook</h2>
+            <h2 className='title-header'>Katherine Westbrook</h2>
           </div>
 
         </header>

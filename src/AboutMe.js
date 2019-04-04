@@ -8,7 +8,7 @@ class AboutMe extends Component {
       <div className="App">
         <div className="section-header">
           <div className='section-title'>
-            <h2 >About Katie</h2>
+            <h2 >About Katherine Westbrook</h2>
           </div>
         </div>
         <div className='about-me-box'>

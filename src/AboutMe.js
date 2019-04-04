@@ -26,12 +26,12 @@ class AboutMe extends Component {
               <p className='paragraph'>
                 <b className='size-emphasis'>Technical Skills and Knowledge:</b>
                 <br /><b>JavaScript--  React--Redux--NodeJS</b>--PostreSQL--MongoDB<br />ORMS such as Sequelize and Mongoose-- Third Party APIs --Recharts
-                <br />
-                Take a look at my CV/Resume right now for more details on my professional background.
-
-</p>
+                </p>
               <p className='paragraph'>
-                Please <a href='mailto:kcheriewestbrook@gmail.com' className='inline-link'> click here to email me</a> if you have any questions and suggestions.
+                Take a look at <a className='inline-link' href='https://res.cloudinary.com/dmp2crnzz/image/upload/v1554335913/personal-site/Katherine_Westbrook.pdf' alt='resume'>my CV/Resume right now </a>for more details on my professional background.
+
+
+                <br /> Please <a href='mailto:kcheriewestbrook@gmail.com' className='inline-link'> click here to email me</a> if you have any questions and suggestions.
             </p>
             </div>
             <div>
